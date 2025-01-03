@@ -1,5 +1,5 @@
-import { describe, expect, test } from "vitest";
-import { checkForFactor } from "./check-for-factor.js";
+import { describe, expect, test } from "@jest/globals";
+import { checkForFactor } from "./check-for-factor";
 
 describe("Check for factor", () => {
   test("is a factor of", () => {

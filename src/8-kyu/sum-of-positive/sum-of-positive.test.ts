@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "@jest/globals";
 import { positiveSum } from "./sum-of-positive";
 
 describe("Sum of positive", () => {

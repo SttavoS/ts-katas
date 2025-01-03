@@ -1,4 +1,4 @@
-import { describe, test, expect } from "vitest";
+import { describe, test, expect } from "@jest/globals";
 import { numberOfRectangles } from "./number-of-rectangles";
 
 describe("Number of Rectangles in a Grid", () => {

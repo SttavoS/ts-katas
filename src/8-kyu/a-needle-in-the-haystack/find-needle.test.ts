@@ -1,5 +1,5 @@
-import { describe, expect, test } from "vitest";
-import { findNeedle } from "./find-needle.js";
+import { describe, expect, test } from "@jest/globals";
+import { findNeedle } from "./find-needle";
 
 describe("A needle in the haystack", () => {
   test("find needle", () => {

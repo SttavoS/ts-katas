@@ -1,5 +1,5 @@
-import { describe, expect, test } from "vitest";
-import { lovefunc } from "./opposites-attract.js";
+import { describe, expect, test } from "@jest/globals";
+import { lovefunc } from "./opposites-attract";
 
 describe("Opposites Attract", () => {
   test("Basic tests", () => {
